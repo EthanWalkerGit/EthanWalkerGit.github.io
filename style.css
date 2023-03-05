@@ -1,10 +1,16 @@
-.container {
-    padding: calc(8px + 1.5625vw);
+html {
+    line-height: 1.5;
+    font-weight: normal;
+    color: white;
+    background-color: black;
 }
-h1 {
+.title {
     font-size: 3em;
     text-align: center;
 }
 .socials {
     text-align: center;
+}
+.header {
+    font-size: 1.5em;
 }
