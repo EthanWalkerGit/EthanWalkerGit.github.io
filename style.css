@@ -27,6 +27,9 @@ li {
 .nav-content {
     text-align: center;
 }
+.map {
+    float: left;
+}
 /* font: bold 11px Arial;
 text-decoration: none;
 background-color: #EEEEEE;
