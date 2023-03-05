@@ -1,3 +1,6 @@
+.container {
+    padding: calc(8px + 1.5625vw);
+}
 h1 {
     font-size: 3em;
     text-align: center;
