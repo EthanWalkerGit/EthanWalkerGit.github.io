@@ -16,7 +16,7 @@ ul {
     list-style-type: none;
 }
 li {
-    float: left;
+    display: inline;
 }
 .title {
     font-size: 3em;
