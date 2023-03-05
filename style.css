@@ -1,6 +1,8 @@
 html {
     line-height: 1.5;
     font-weight: normal;
+    width: 175px;
+    margin: auto;
     color: white;
     background-color: #3d5c5c;
 }
