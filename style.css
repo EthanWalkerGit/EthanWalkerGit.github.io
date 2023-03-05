@@ -4,6 +4,12 @@ html {
     color: white;
     background-color: #3d5c5c;
 }
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
 .title {
     font-size: 3em;
     text-align: center;
