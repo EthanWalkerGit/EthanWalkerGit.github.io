@@ -37,7 +37,6 @@ iframe {
 }
 .map {
     float: left;
-    flex-basis: 40%;
     padding: 20px;
 }
 .socials {
