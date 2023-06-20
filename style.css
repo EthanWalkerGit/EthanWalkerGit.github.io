@@ -2,7 +2,6 @@ html {
     line-height: 1.5;
     font-weight: normal;
     width: 70%;
-    margin: auto;
     color: white;
     background-color: #454545;
     font-family: Georgia, serif;
@@ -23,24 +22,21 @@ li {
 .title {
     font-size: 2.75em;
     text-align: center;
+    border: 3px solid red;
 }
 .nav-content {
     text-align: center;
+    border: 3px solid green;
 }
 .about {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.map {
-    float: left;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-}
 .socials {
     text-align: center;
 }
 .header {
     font-size: 1.5em;
+    background-color: #383838;
 }
