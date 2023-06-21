@@ -16,9 +16,9 @@ a:hover, a:active { text-decoration: none; color:white; }
 .header {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 100px 20px;
+    grid-template-rows: auto auto;
     place-items: center;
-    grid-template-areas: 'myArea . . .'
+    grid-template-areas: 'myArea myArea myArea';
 }
 li {
     display: inline;
@@ -36,7 +36,6 @@ li {
 }
 .nav-icons {
     text-align: center;
-    background-color: rgb(125, 25, 130);
 }
 .about {
     display: flex;
