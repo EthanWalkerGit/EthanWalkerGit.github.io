@@ -30,6 +30,7 @@ li {
     border: 3px sold bluel
 }
 .nav-icons {
+    width: 200px;
     text-align: center;
     padding: 40px;
     background-color: rgb(125, 25, 130);
