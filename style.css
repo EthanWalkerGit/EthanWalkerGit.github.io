@@ -1,7 +1,7 @@
 html {
     line-height: 1.5;
     font-weight: normal;
-    width: clamp(390px, 100px, 844px);
+    width: clamp(390px, 100%, 844px);
     margin: auto;
     color: white;
     background-color: #454545;
