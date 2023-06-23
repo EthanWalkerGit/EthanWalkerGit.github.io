@@ -1,12 +1,18 @@
 html {
     line-height: 1.5;
     font-weight: normal;
-    width: clamp(400px, 100%, 844px);
+    width: clamp(390px, 100%, 844px);
     margin: auto;
     color: white;
-    background-color: #454545;
+    background-color: #414040;
     font-family: 'Muli',sans-serif;
     
+}
+head {
+    background-color: #2d2d2d;
+}
+body {
+    background-color: #2d2d2d;
 }
 a { text-decoration: none; color: white; }
 a:visited { text-decoration: none; color:white; }
@@ -23,6 +29,10 @@ a:hover, a:active { text-decoration: none; color:white; }
 }
 li {
     display: inline;
+}
+p {
+    font-size: clamp(10px, 100%, 20px);
+    padding: 10px;
 }
 .title {
     grid-area: myArea;
@@ -48,7 +58,6 @@ li {
 .subheader {
     font-size: clamp(1.2rem, 2.5rem, 1.35rem);
     text-align: center;
-    background-color: #383838;
 }
 .prefooter {
     display: flex;
