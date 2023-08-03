@@ -31,8 +31,8 @@ li {
     display: inline;
 }
 p {
-    font-size: clamp(10px, 100%, 20px);
-    padding: 10px;
+    font-size: 1.1rem;
+    padding: 30px;
 }
 .title {
     text-transform: uppercase;
