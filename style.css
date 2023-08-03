@@ -62,8 +62,11 @@ p {
     align-items: center;
     justify-content: center;
 }
+.about-text {
+    padding: 18px;
+}
 .subheader {
-    font-size: clamp(1.2rem, 2.5rem, 1.35rem);
+    font-size: 18px;
     text-align: center;
 }
 .prefooter {
