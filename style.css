@@ -74,9 +74,10 @@ p {
     padding: 20px;
     justify-content: space-around;
     align-items: space-evenly;
-
 }
 img {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 .socials {
