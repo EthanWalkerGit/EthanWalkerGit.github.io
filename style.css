@@ -74,7 +74,7 @@ p {
     flex-direction: row;
     place-items: center;
 }
-.img {
+img {
     width: 142px;
     height: 142px;
     min-width: 142px;
