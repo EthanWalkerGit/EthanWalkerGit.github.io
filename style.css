@@ -69,15 +69,15 @@ p {
     font-size: 18px;
     text-align: center;
 }
-.prefooter {
+.footer {
     display: flex;
-    padding: 20px;
-    justify-content: space-around;
-    align-items: space-evenly;
+    flex-direction: row;
+    place-items: center;
 }
-img {
-    width: 200px;
-    height: 200px;
+.img {
+    width: 142px;
+    height: 142px;
+    min-width: 142px;
     border-radius: 50%;
 }
 .socials {
