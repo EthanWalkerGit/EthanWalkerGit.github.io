@@ -76,6 +76,9 @@ p {
     align-items: space-evenly;
 
 }
+img {
+    border-radius: 50%;
+}
 .socials {
     text-align: center;
 }
