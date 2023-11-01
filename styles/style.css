@@ -1,0 +1,53 @@
+html {
+  font-family: Roboto, Arial;
+  background-color: #252529;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  font-weight: 400;
+}
+
+a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.body-div {
+  max-width: 600px;
+}
+
+h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 27px;
+}
+
+p {
+  font-family: Roboto, Arial;
+}
+
+.about-me {
+  color: #9b9b9b;
+}
+
+.project-grid {
+  display: grid;
+}
+
+.grid-box {
+  width: 100%;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
