@@ -27,23 +27,26 @@ h1 {
   font-size: 27px;
 }
 
+h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
 p {
   font-family: Roboto, Arial;
+  color: #9b9b9b;
+  margin-top: 10px;
 }
 
 .about-me {
   color: #9b9b9b;
-}
-
-.project-grid {
-  display: grid;
-}
-
-.grid-box {
-  width: 100%;
+  margin-bottom: 30px;
 }
 
 .footer {
+  margin-top: 40px;
   bottom: 0;
   left: 0;
   right: 0;

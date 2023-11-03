@@ -1,0 +1,87 @@
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blue; */
+}
+
+.grid-box {
+  max-width: 510px;
+  background-color: #2b2b30;
+  border-color: #595959;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: red; */
+}
+
+.box-text {
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: green; */
+}
+
+.box-buttons {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.learn-more-button {
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+  background-color: #252529;
+  border-color: #9b9b9b;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+    color 0.15s,
+    border-color 0.15s;
+}
+
+.github-button {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+
+  background-color: #252529;
+  border-color: #9b9b9b;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+    color 0.15s,
+    border-color 0.15s;
+}
+
+.learn-more-button:hover,
+.github-button:hover {
+  background-color: red;
+  color: white;
+  border-color: red;
+}
