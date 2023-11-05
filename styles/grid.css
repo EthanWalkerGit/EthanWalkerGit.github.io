@@ -10,7 +10,7 @@
 
 .grid-box {
   max-width: 510px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   background-color: #2b2b30;
   border-color: #595959;
   border-style: solid;
@@ -113,4 +113,11 @@
   background-color: red;
   color: white;
   border-color: red;
+}
+
+.learn-more-button:active,
+.github-button:active,
+.github-button-single:active {
+  background-color: rgb(250, 99, 99);
+  border-color: rgb(250, 99, 99);
 }

@@ -61,3 +61,8 @@
 .github-icon:hover {
   color: red;
 }
+
+.linkedin-icon:active,
+.github-icon:active {
+  color: rgb(255, 141, 141);
+}
