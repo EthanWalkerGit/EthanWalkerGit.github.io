@@ -10,6 +10,7 @@
 
 .grid-box {
   max-width: 510px;
+  margin-bottom: 40px;
   background-color: #2b2b30;
   border-color: #595959;
   border-style: solid;
@@ -62,6 +63,7 @@
   margin-top: 5px;
   margin-bottom: 10px;
   margin-left: 15px;
+  font-size: 14px;
 
   background-color: #252529;
   border-color: #9b9b9b;
@@ -81,6 +83,33 @@
 
 .learn-more-button:hover,
 .github-button:hover {
+  background-color: red;
+  color: white;
+  border-color: red;
+}
+
+.github-button-single {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+
+  background-color: #252529;
+  border-color: #9b9b9b;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+    color 0.15s,
+    border-color 0.15s;
+}
+
+.github-button-single:hover {
   background-color: red;
   color: white;
   border-color: red;
