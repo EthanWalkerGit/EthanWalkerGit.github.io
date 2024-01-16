@@ -39,6 +39,10 @@ p {
   color: #9b9b9b;
   margin-top: 10px;
 }
+li {
+  font-family: Roboto, Arial;
+  color: #9b9b9b;
+}
 
 .about-me {
   color: #9b9b9b;
